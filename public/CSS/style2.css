@@ -1,0 +1,125 @@
+body {
+	font-family: "Plus Jakarta Sans", sans-serif !important;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+.container {
+	flex: 1;
+}
+
+.navbar {
+	height: 4rem;
+	background-color: white;
+}
+.fa-airbnb {
+	color: #fa424d;
+	font-size: 2rem;
+}
+
+.nav-link {
+	color: #111211 !important ;
+}
+
+/* Footer */
+.f-info a {
+	text-decoration: none;
+	color: #222222;
+}
+.f-info a:hover {
+	text-decoration: underline;
+	font-weight: 400;
+	color: #222222;
+}
+
+.f-info {
+	text-align: center;
+	height: 8rem;
+	display: flex;
+	background-color: #ebebed;
+	flex-wrap: wrap;
+	justify-content: center;
+	/* align-content: space-between; */
+	align-items: center;
+}
+
+.f-info-links,
+.f-info-socials {
+	width: 100%;
+}
+
+.f-info-socials i {
+	font-size: 1.3rem;
+	margin-right: 0.8rem;
+}
+
+/* New Page */
+.del-btn {
+	background-color: #fa424d !important;
+	color: #ffffff !important;
+}
+
+/* Show Page */
+
+.show-img {
+	height: 30vh;
+}
+
+.listing-card {
+	border: none !important;
+	margin-bottom: 0.5rem;
+}
+
+.card-img-top {
+	border-radius: 1rem !important;
+	background-size: cover;
+}
+
+.show-card {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.btns {
+	display: flex;
+}
+
+.edit-btn {
+	background-color: #000000 !important;
+	color: #ffffff !important;
+}
+
+.font-weight {
+	font-weight: 500 !important;
+	line-height: 1.5;
+}
+
+/* Map */
+#map {
+	height: 400px;
+	width: 80%;
+	position: center;
+	border: 1px solid #33333303;
+	border-radius: 0.2rem;
+}
+
+/* Nav bar search button */
+.search-btn {
+	border-radius: 1.7rem !important;
+	padding: 0 1rem !important;
+	display: flex !important;
+	justify-content: center !important;
+	align-items: center !important;
+	background-color: #fa424d !important;
+	color: #ffffff !important;
+}
+
+.search-btn i {
+	margin-right: 0.5rem !important;
+}
+
+.search-input {
+	border-radius: 1.5rem !important;
+	padding: 0.5rem 3rem !important;
+	margin: 0 1.5rem !important;
+}

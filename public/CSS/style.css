@@ -1,0 +1,131 @@
+body {
+	font-family: "Plus Jakarta Sans", sans-serif !important;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+.container {
+	flex: 1;
+}
+
+.navbar {
+	height: 4rem;
+	background-color: white;
+}
+
+.fa-airbnb {
+	color: #fa424d;
+	font-size: 2rem;
+}
+
+.nav-link {
+	color: #111211 !important ;
+}
+
+/* Footer */
+.f-info a {
+	text-decoration: none;
+	color: #222222;
+}
+.f-info a:hover {
+	text-decoration: underline;
+	font-weight: 400;
+	color: #222222;
+}
+
+.f-info {
+	text-align: center;
+	height: 7rem;
+	display: flex;
+	background-color: #ebebed;
+	flex-wrap: wrap;
+	justify-content: center;
+	/* align-content: space-between; */
+	align-items: center;
+}
+
+.f-info-links,
+.f-info-socials {
+	width: 100%;
+}
+
+.f-info-socials i {
+	font-size: 1.3rem;
+	margin-right: 0.8rem;
+}
+
+/* card */
+.card {
+	border: none !important;
+	margin-bottom: 2rem;
+	width: 100% !important;
+	/* max-width: 20rem; */
+}
+
+.card-img-top {
+	border-radius: 1rem !important;
+}
+
+.card-body {
+	padding: 0 !important;
+}
+
+.card-text {
+	font-weight: 500 !important;
+}
+
+.listing-link {
+	text-decoration: none;
+}
+
+/* cord Effect */
+.card-img-overlay:hover {
+	background-color: #ffffff;
+	opacity: 0.2;
+}
+
+/* New Page */
+.btn {
+	background-color: #fa424d !important;
+	color: #ffffff !important;
+}
+
+/* Show Page */
+
+.show-img {
+	height: 40vh !important;
+	width: 40% !important;
+}
+
+.btns {
+	display: flex;
+}
+
+.edit-btn {
+	background-color: #000000 !important;
+	color: #ffffff !important;
+}
+
+.show-card {
+	padding-left: 0;
+	padding-right: 0;
+}
+/* Nav bar search button */
+.search-btn {
+	border-radius: 1.7rem !important;
+	padding: 0 1rem !important;
+	display: flex !important;
+	justify-content: center !important;
+	align-items: center !important;
+}
+
+.search-btn i {
+	margin-right: 0.5rem !important;
+}
+
+.search-input {
+	border-radius: 1.5rem !important;
+	padding: 0.5rem 3rem !important;
+	margin: 0 1.5rem;
+}
